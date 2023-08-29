@@ -6,6 +6,8 @@ import com.bootcoding.model.WeeklySchedule;
 import java.util.List;
 
 public interface WeeklyScheduleService {
+
+
     List<WeeklySchedule> getAllWeeklySchedules();
 
     WeeklySchedule getWeeklyScheduleById(int id);
