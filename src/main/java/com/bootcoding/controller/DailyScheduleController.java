@@ -2,7 +2,7 @@ package com.bootcoding.controller;
 
 
 import com.bootcoding.model.DailySchedule;
-import com.bootcoding.service.DailyScheduleService;
+import com.bootcoding.service.DailyScheduleService.DailyScheduleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

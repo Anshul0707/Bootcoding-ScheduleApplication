@@ -1,7 +1,7 @@
 package com.bootcoding.controller;
 
 import com.bootcoding.model.WeeklySchedule;
-import com.bootcoding.service.WeeklyScheduleService;
+import com.bootcoding.service.WeeklyScheduleService.WeeklyScheduleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

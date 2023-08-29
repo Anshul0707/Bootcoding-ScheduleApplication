@@ -1,4 +1,4 @@
-package com.bootcoding.service;
+package com.bootcoding.service.DailyScheduleService;
 
 import com.bootcoding.model.DailySchedule;
 import com.bootcoding.repository.DailyScheduleRepository;
