@@ -56,6 +56,7 @@ public class StudentController {
                 break;
             }
         }
+
         if (foundStudent != null) {
             studentList.remove(foundStudent);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
