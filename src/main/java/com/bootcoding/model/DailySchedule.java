@@ -28,6 +28,7 @@ public class DailySchedule {
     private String createBy;
     private Date modifiedDate;
     private String modifiedBy;
+
     @ManyToOne
     @JoinColumn(name = "week_schedule_id")
     private WeeklySchedule weeklySchedule;
