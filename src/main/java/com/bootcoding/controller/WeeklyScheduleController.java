@@ -19,6 +19,7 @@ public class WeeklyScheduleController {
         return weeklyScheduleService.getAllWeeklySchedules();
     }
 
+
     @GetMapping("/{id}")
     public WeeklySchedule getWeeklyScheduleById(@PathVariable int id) {
         return weeklyScheduleService.getWeeklyScheduleById(id);
